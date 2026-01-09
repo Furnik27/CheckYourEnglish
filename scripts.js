@@ -388,16 +388,16 @@ function showResult() {
 let percentage = (score / questions.length) * 100;
 let level = "";
 
-if (percentage < 35) {
-  level = "du musst ein bisschen mehr lernen.";
+if (percentage < 30) {
+  level = "Du musst ein bisschen mehr lernen.Nicht schlimm du wirst es Schaffen!";
 } else if (percentage < 60) {
-  level = "Elementary – du kannst dich verständigen und einfache Texte verstehen.";
+  level = "Elementary – Du kannst dich verständigen und einfache Texte verstehen.";
 } else if (percentage < 80) {
   level = "Intermediate – gut für Reisen ins Ausland.";
 } else if (percentage < 95) {
-  level = "Advanced – du kannst Dinge gut erklären und anderen helfen.";
+  level = "Advanced – Du kannst Dinge gut erklären und anderen helfen.";
 } else {
-  level = "Fluent – du wärst ein sehr guter Übersetzer oder Lehrer.";
+  level = "Fluent – Du wärst ein sehr guter Übersetzer oder Lehrer.";
 }
 
 document.getElementById("levelText").innerText = level;

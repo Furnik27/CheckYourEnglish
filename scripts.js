@@ -388,8 +388,8 @@ function showResult() {
 let percentage = (score / questions.length) * 100;
 let level = "";
 
-if (percentage < 35) {
-  level = "du musst ein bisschen mehr lernen.";
+if (percentage < 30) {
+  level = "Du musst ein bisschen mehr lernen. Aber nicht schlecht!!!";
 } else if (percentage < 60) {
   level = "Elementary – du kannst dich verständigen und einfache Texte verstehen.";
 } else if (percentage < 80) {

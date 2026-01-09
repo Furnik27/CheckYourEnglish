@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Level Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>English Level Test</h1>
+
+  <div id="quiz">
+    <p id="question">Frage kommt hier</p>
+
+    <div class="buttons">
+      <button onclick="answer(0)">Antwort A</button>
+      <button onclick="answer(1)">Antwort B</button>
+      <button onclick="answer(2)">Antwort C</button>
+      <button onclick="answer(3)">Antwort D</button>
+    </div>
+  </div>
+
+  <div id="result" class="hidden">
+    <h2>Dein Ergebnis</h2>
+    <p id="scoreText"></p>
+    <p id="levelText"></p>
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

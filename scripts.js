@@ -1,11 +1,6 @@
 const questions = [
   
   {
-    question: "What is the plural of 'mouse'?",
-    answers: ["mouses", "mices", "mouse", "mice"],
-    correct: 3
-  },
-  {
     question: "I ___ never been to London.",
     answers: ["have", "has", "am", "was"],
     correct: 0

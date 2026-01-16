@@ -272,11 +272,11 @@ function showResult() {
 let percentage = (score / questions.length) * 100;
 let level = "";
 
-if (percentage < 30) {
+if (percentage < 25) {
   level = "Du musst ein bisschen mehr lernen.Nicht schlimm du wirst es Schaffen!";
-} else if (percentage < 60) {
+} else if (percentage < 50) {
   level = "Elementary – Du kannst dich verständigen und einfache Texte verstehen.";
-} else if (percentage < 80) {
+} else if (percentage < 75) {
   level = "Intermediate – gut für Reisen ins Ausland.";
 } else if (percentage < 95) {
   level = "Advanced – Du kannst Dinge gut erklären und anderen helfen.";
